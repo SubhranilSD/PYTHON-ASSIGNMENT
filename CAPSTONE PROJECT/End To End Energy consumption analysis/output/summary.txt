@@ -1,0 +1,22 @@
+
+EXECUTIVE SUMMARY REPORT
+========================
+Generated on: 2025-11-25 03:47:33
+
+1. Total Campus Consumption: 5023.01 kWh
+
+2. Highest Consuming Building:
+   - Name: Engineering
+   - Total Usage: 1705.72 kWh
+   - Average Usage: 10.15 kWh
+
+3. Peak Load Event:
+   - Time: 2025-11-21 13:00:00
+   - Building: Library
+   - Consumption: 19.36 kWh
+
+4. Building Summary Data:
+   building      mean      min       max         sum
+      Admin  9.819760 1.264549 18.741849 1649.719696
+Engineering 10.153097 1.700757 18.013307 1705.720321
+    Library  9.925992 0.297749 19.364108 1667.566624
