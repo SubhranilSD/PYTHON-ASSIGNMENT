@@ -1,0 +1,19 @@
+The weather data from early January to mid-February 2025 showed a clear shift from 
+cooler winter conditions to slightly warmer and drier days as February progressed.
+ In the first week of January, temperatures stayed mostly between 13°C and 16°C,
+  showing typical winter coolness. Humidity remained fairly high, often above 80%,
+   which suggested moist winter air. Rainfall during this period was low, with only
+    a couple of days showing any measurable rain, and most days staying completely dry.
+
+As February started, a gradual warming trend was noticeable. Temperatures began
+ rising to the 18–21°C range, especially around the middle of the month.
+  Humidity also dropped steadily from the high 70–80% range to the mid-60s, 
+  indicating a shift toward drier air. Rainfall in February became a bit more
+  irregular—most days had no rain at all, but a few days recorded significant rainfall,
+   such as 8.3 mm on February 4 and 11.6 mm on February 11. These spikes suggested short,
+    intense showers rather than continuous rainy conditions.
+
+
+Overall, the period showed a clear transition from cool, humid winter weather in January to warmer,
+ slightly drier early-spring-like conditions in February, with occasional brief 
+ rain events breaking the otherwise dry trend.
