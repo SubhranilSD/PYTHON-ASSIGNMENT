@@ -1,43 +1,32 @@
-Welcome! This little project was all about exploring real weather data using Python. Nothing too fancy — just some basic cleaning, number-crunching, and plotting to understand how the weather behaved over a short period of time.
+# Python Lab 4: Pandas Weather Analysis
 
-What Was Done
+## Overview
+This project involves analyzing a real-world weather dataset using Python's data science stack: Pandas, NumPy, and Matplotlib. The goal is to clean raw data, perform statistical analysis, and visualize weather trends.
 
-First, a weather CSV file was downloaded and loaded into a Pandas DataFrame. The data was checked to see what it looked like — things like temperature, humidity, and rainfall.
+## Features
+- **Data Loading**: Loads weather data from a CSV file.
+- **Data Cleaning**: Handles missing values and converts date columns to the correct format.
+- **Statistical Analysis**: Calculates daily, monthly, and seasonal statistics (mean temperature, max temperature, total rainfall, etc.).
+- **Visualization**: Generates various plots to visualize trends:
+    - Daily Temperature Trend (Line Chart)
+    - Monthly Rainfall (Bar Chart)
+    - Humidity vs. Temperature (Scatter Plot)
+    - Combined Dashboard
+- **Export**: Saves the cleaned dataset and generated plots.
 
-Cleaning the Data
+## Files
+- `lab4.py`: The main analysis script.
+- `weather_dataset.csv`: The input raw dataset.
+- `cleaned_weather_data.csv`: The processed output dataset.
+- `*.png`: Generated plots (e.g., `daily_temp_trend.png`, `monthly_rainfall.png`).
 
-A few simple cleanup steps were done:
-
-Missing values were removed
-
-The Date column was turned into proper datetime format
-
-Only the useful columns (Date, Temp, Humidity, Rainfall) were kept
-
-Just enough to make the data easy to work with.
-
-Analysis
-
-Using NumPy, some quick stats were calculated — average temperature, highest temp, lowest humidity, rainfall variation, and monthly totals. Then the data was grouped by month and season to spot bigger patterns.
-
-Visuals
-
-A few plots were created to make the trends easier to understand:
-
-Daily temperature line graph
-
-Monthly rainfall bar chart
-
-Humidity vs temperature scatter plot
-
-A combined figure with two plots
-
-All these graphs were saved as PNG images.
-
-Output
-
-Finally, the cleaned dataset was saved as cleaned_weather_data.csv so it can be reused or analysed again later.
-
-
-
-Overall, this project was a simple walkthrough of data analysis using Pandas, NumPy, and Matplotlib — perfect practice for handling real-world datasets.
+## How to Run
+1.  Ensure you have the required libraries installed:
+    ```bash
+    pip install pandas numpy matplotlib
+    ```
+2.  Run the script:
+    ```bash
+    python lab4.py
+    ```
+3.  Check the output directory for the generated PNG plots and the cleaned CSV file.
